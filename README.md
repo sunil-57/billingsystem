@@ -9,5 +9,5 @@ Based on  unit slabs (e.g. 10 units = Rs. 100, 20 units = Rs. 250, etc.), the pr
 - Unit slabs anusar kaam garnu parxha
 - 20 unit vanda mathi ko discuss garnu parni xha
 - Bill calculate garnu parni xha for every customer  (unit slab use garera)
-- Bill pani dekhaua parni xa
+- Preview a terminal bill
 - Highest paying customer with house number [paid amount dekhauda thik hunthyo??]
