@@ -3,7 +3,7 @@ package view;
 import model.BillRecords;
 
 public class HighestPayingView {
-    public void showHighestPayingView(){
+    public static void showHighestPayingView(){
         BillRecords record = BillRecords.showHighestPayingCustomer();
         System.out.println("model.Customer name: "+ record.getCustomer().getName());
         System.out.println("House Number: "+ record.getCustomer().getHouseNumber());
