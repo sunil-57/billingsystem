@@ -11,7 +11,7 @@ Based on  unit slabs (e.g. 10 units = Rs. 100, 20 units = Rs. 250, etc.), the pr
 
 
 ## Features
-- model.Customer ko detail record {name, house number, kati electricity used}
+- Customer details to be recorded -> name, house number, kati electricity used
 - Should be able to provide the units consumed
 - Calculation as per the unit slabs
 - Bill calculation for every customer
