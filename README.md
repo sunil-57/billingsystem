@@ -11,9 +11,8 @@ Based on  unit slabs (e.g. 10 units = Rs. 100, 20 units = Rs. 250, etc.), the pr
 
 
 ## Features
-- Customer details to be recorded -> name, house number, kati electricity used
-- Should be able to provide the units consumed
+- Customer details to be recorded -> name, house number, units of electricity used
 - Calculation as per the unit slabs
-- Bill calculation for every customer
-- Preview a terminal bill
+- Preview a bill of a single customer
+- Show all the bill transactions
 - Highest paying customer with house number with the amount paid
