@@ -1,6 +1,5 @@
 package controller;
 
-import model.BillRecords;
 import view.CaculateBillView;
 import view.HighestPayingView;
 
