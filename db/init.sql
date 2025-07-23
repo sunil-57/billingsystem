@@ -1,5 +1,5 @@
-DROP TABLE bill;
-DROP TABLE customer;
+DROP TABLE IF EXISTS bill;
+DROP TABLE IF EXISTS customer;
 
 CREATE TABLE customer (
     customerid INT PRIMARY KEY AUTO_INCREMENT,
