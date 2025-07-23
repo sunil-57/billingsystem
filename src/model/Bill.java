@@ -3,23 +3,23 @@ package model;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class BillRecords {
-    private static ArrayList<BillRecords> billRecordsList = new ArrayList<>();
+public class Bill {
+    private static ArrayList<Bill> billRecordsList = new ArrayList<>();
     //customer ko details {customer details, bill amount, billing date}
     private Customer customer;
     private double billAmount;
     //TODO jaile record add hunxa teti bela ko date chainxa
     private LocalDate billingDate;
-    public BillRecords(){
+    public Bill(){
 
     }
-    public BillRecords(Customer customer, double billAmount){
+    public Bill(Customer customer, double billAmount){
         this.customer = customer;
         this.billAmount = billAmount;
         this.billingDate = LocalDate.now();
     }
     //add a customer bill record
-    public static boolean addBillRecord(BillRecords billRecords){
+    public static boolean addBillRecord(Bill billRecords){
         boolean isRecordAdded = false;
         if(billRecordsList.add(billRecords)){
             isRecordAdded = true;
@@ -46,11 +46,11 @@ public class BillRecords {
 
     }
     //show highest paying customer
-    public static BillRecords showHighestPayingCustomer(){
-        BillRecords maxBillRecord = null;
+    public static Bill showHighestPayingCustomer(){
+        Bill maxBillRecord = null;
         double maxBillAmount = 0;
         double billAmount = 0;
-        for(BillRecords billRecord: billRecordsList){
+        for(Bill billRecord: billRecordsList){
             billAmount = billRecord.getBillAmount();
             if(maxBillAmount < billAmount){
                 maxBillAmount = billAmount;

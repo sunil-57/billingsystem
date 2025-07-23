@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static String dbName = "billsystemdb";
+    private static String dbName = "billingsystem";
     private static String path = "jdbc:mysql://localhost:3306/"+dbName;
     private static String username = "root";
     private static String password = "";

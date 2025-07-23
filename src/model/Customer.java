@@ -1,6 +1,7 @@
 package model;
 
 public class Customer {
+    private int customerid;
     private String name;
     private String houseNumber;
     private double unitsConsumed;
@@ -9,6 +10,14 @@ public class Customer {
         this.name = name;
         this.houseNumber = houseNumber;
         this.unitsConsumed = unitsConsumed;
+    }
+
+    public int getCustomerid() {
+        return customerid;
+    }
+
+    public void setCustomerid(int customerid) {
+        this.customerid = customerid;
     }
 
     public String getName() {
